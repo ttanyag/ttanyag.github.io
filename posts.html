@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .flex-container {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      text-align: center;
+    }
+
+    .flex-container>* {
+      padding: 15px;
+      -webkit-flex: 1 100%;
+      flex: 1 100%;
+    }
+
+    .article {
+      text-align: left;
+      background: #403b2d;
+      color: #eeeeee
+    }
+
+    header {
+      background: #f1c454;
+      color: #eeeeee
+    }
+
+    footer {
+      background: #79b599;
+      color: #eeeeee
+    }
+
+    .nav {
+      background: #d97e78;
+      color: #eeeeee
+    }
+
+    .nav ul {
+      list-style-type: none;
+      padding: 0;
+      color: #eeeeee
+    }
+
+    .nav ul a {
+      text-decoration: none;
+      color: #eeeeee
+    }
+
+    h1 {
+      color: #eeeeee;
+      font-size: 3em;
+    }
+
+    h2 {
+      color: #eeeeee;
+      font-size: 2em;
+    }
+
+    p {
+      color: #eeeeee;
+      font-size: 1.2em;
+    }
+
+    li {
+      color: #eeeeee;
+      font-size: 1.5em;
+    }
+
+    @media all and (min-width: 768px) {
+      .nav {
+        text-align: left;
+        -webkit-flex: 1 auto;
+        flex: 1 auto;
+        -webkit-order: 1;
+        order: 1;
+      }
+      .article {
+        -webkit-flex: 5 0px;
+        flex: 5 0px;
+        -webkit-order: 2;
+        order: 2;
+      }
+      footer {
+        -webkit-order: 3;
+        order: 3;
+        color: #eeeeee;
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="flex-container">
+    <header>
+      <h1>Tanya's Website</h1>
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="posts.html">Posts</a></li>
+      </ul>
+    </nav>
+
+    <article class="article">
+      <h2>Posts</h2>
+      <p>This page is about about about about about about about about about about about about
+       about about about about about about about about about about about about
+        about about about about about about about about about about about about
+         about about about about about about about about about about about about
+          about about about about about about about about about about about about
+           about about about about about about about about about about about about
+            about about about about about about about about about about about about
+             about about about about about about about about about about about about
+              about about about about about about about about about about about about</p>
+      <img src="https://media.giphy.com/media/3o7aDd5SyswjQEAbtK/giphy.gif" width="200" height="200" alt="eye GIF">
+      <p>Resize this page to see what happens!</p>
+    </article>
+
+    <footer>Made by Tanya</footer>
+  </div>
+
+</body>
+
+</html>
