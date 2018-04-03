@@ -19,6 +19,10 @@
       color: #eeeeee
     }
 
+.grid-container {
+    display: grid;
+}
+
     header {
       background: #f1c454;
       color: #eeeeee
