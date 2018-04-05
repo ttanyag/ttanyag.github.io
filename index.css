@@ -25,6 +25,7 @@
 
 .grid-item {
     display: grid;
+    background: white
 }
 
     header {
