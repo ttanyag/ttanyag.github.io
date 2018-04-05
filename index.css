@@ -23,6 +23,10 @@
     display: grid;
 }
 
+.grid-item {
+    display: grid;
+}
+
     header {
       background: #f1c454;
       color: #eeeeee
