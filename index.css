@@ -24,8 +24,8 @@
 }
 
 .grid-item {
-    display: grid;
-    background-color: white
+    background: #d97e78;
+    color: #eeeeee;
 }
 
     header {
