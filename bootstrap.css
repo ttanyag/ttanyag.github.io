@@ -110,6 +110,8 @@ a {
 
 .textbox {
   margin-top: 20px;
+  height: 360px;
+  overflow: scroll;
 }
 
 .textbox2 {
@@ -124,6 +126,7 @@ a {
   padding-top: 10px;
   margin: 10px;
   text-decoration: none;
+  width: auto;
 }
 
 .textbox2 a {
