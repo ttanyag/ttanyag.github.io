@@ -336,5 +336,5 @@ div.type {
 
 @font-face {
   font-family:anton;
-  src: 'Anton.ttf';
+  src: url(Anton.ttf');
 }
