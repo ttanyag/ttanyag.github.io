@@ -333,3 +333,8 @@ div.type {
   grid-row-start: 8;
   grid-row-end: 9;
 }
+
+@font-face {
+  font-family:anton;
+  src: 'Anton.ttf';
+}
