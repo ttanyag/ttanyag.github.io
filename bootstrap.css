@@ -334,7 +334,4 @@ div.type {
   grid-row-end: 9;
 }
 
-@font-face {
-  font-family:anton;
-  src: url(Anton.ttf');
-}
+@font-face { font-family: anton; src: url('Anton.ttf'); } 
